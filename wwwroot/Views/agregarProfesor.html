@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
     <title>Agregar profesor</title>
 </head>
 <body>
+    <h1 id="nombrePag">Comunidad IT</h1>
+    <nav id="navPrincipal">
+        <a href="/Views/alumnos.html">Alumnos</a>
+        <a href="/Views/profesores.html">Profesores</a>
+        <a href="/Views/materias.html">Materias</a>
+    </nav>
     <h2>Agregar nuevo profesor</h2>
-    <form>
-        <label for="nombre">Nombres:</label>
-            <input type="text" id="nombre" name="nombre" required placeholder="Juan Manuel Pereira"/><br><br>
-        <label for="dni">DNI:</label>
-            <input type="number" id="dni" name="dni" required placeholder="39781686"/><br><br>
-        <label for="celular">Celular:</label>
-            <input type="number" id="celular" name="celular" placeholder="3875631976"/><br><br>
-        <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" required/><br><br>
-        <input type="submit" value="Agregar"/>
-    </form>
+    <div id="caja">
+        <h3>Ingrese los datos:</h3>
+        <form>
+            <label for="nombre">Nombres:</label>
+                <input type="text" id="nombre" name="nombre" required placeholder="Juan Manuel Pereira"/><br><br>
+            <label for="dni">DNI:</label>
+                <input type="number" id="dni" name="dni" required placeholder="39781686"/><br><br>
+            <label for="celular">Celular:</label>
+                <input type="number" id="celular" name="celular" placeholder="3875631976"/><br><br>
+            <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" required/><br><br>
+            <input type="submit" value="Agregar"/>
+        </form>
+    </div>
 </body>
 </html>
